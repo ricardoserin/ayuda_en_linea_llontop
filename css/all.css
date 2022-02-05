@@ -41,14 +41,14 @@ a:visited ,*/
 .b-breadCrumbs__link:visited,
 .b-controlButtons__link,
 .b-controlButtons__link:visited {
-    color: #7cb342;
-    border-bottom-color: #bbd69e;
+    color: #1e88e5;
+    border-bottom-color: #8cc1ef;
 }
 
 tr.topLinkRow a,
 tr.topLinkRow a:visited {
-	color: #7cb342 !important;
-	border-bottom-color: #bbd69e !important;
+	color: #1e88e5 !important;
+	border-bottom-color: #8cc1ef !important;
 	font-size: 8pt !important;
 }
 
@@ -59,8 +59,8 @@ h6.b-article__generatorCopyright {
 
 .b-breadCrumbs__link:hover,
 .b-controlButtons__link:hover {
-    color: #c5e1a5;
-    border-bottom-color: #dfedcf;
+    color: #90caf9;
+    border-bottom-color: #c5e2f9;
 }
 
 .b-article__generatorCopyrightLink:link,
@@ -86,7 +86,7 @@ h6.b-article__generatorCopyright {
     text-align: center;
     cursor: default;
 
-    background-color: rgb(124,179,66);
+    background-color: rgb(30,136,229);
 
     font-size: 14px;
     font-family: Arial;
@@ -246,7 +246,7 @@ html {
 /*@import url( 'work-zone.css' );*/
 .m-pageContent__side__header
 {
-    background: #49b64e;
+    background: #ffffff;
 }
 .m-pageContent__side__header__wrapper {
     width: 100%;
@@ -264,7 +264,7 @@ html {
 
 .m-pageContent__side__footer
 {
-    background: #49b64e;
+    background: #ffffff;
 }
 .b-workZone {
     width: 100%;
@@ -354,7 +354,7 @@ html[dir="rtl"] .m-workZone_seeAlso_itemContent {
 /*@import url( 'article.css');*/
 .b-article {
     background-color: #fafafa;
-    color: #33691e;
+    color: #0d47a1;
     padding: 0;
 
     position: relative;
@@ -772,9 +772,9 @@ html[dir="rtl"] .b-search__labelPlaceholder {
     margin: 0;
     outline: none;
     min-height: 14px;
-    color: #33691e;
+    color: #0d47a1;
     background-color: #fafafa;
-    border: 1px solid #33691e;
+    border: 1px solid #0d47a1;
 }
 
 .m-search__tabs .b-search__inputText {
@@ -826,7 +826,7 @@ html[dir="rtl"] .m-search__tabs .m-search__side__submit {
 
 /*@import url( 'tree.css');*/
 .b-tree {
-    color: #33691e;
+    color: #0d47a1;
     background-color: #fafafa;
 
     position: relative;
@@ -930,7 +930,7 @@ span.m-tree__itemText__selected {
     text-decoration: none;
 
     border-bottom: none;
-    color:#33691e !important;
+    color:#0d47a1 !important;
 
     height: 1.6em;
 
@@ -955,13 +955,13 @@ html[dir="rtl"] .b-tree__itemLink {
 
 
 .m-tree__itemContent__selected {
-    background-color: rgb(124,179,66);
+    background-color: rgb(30,136,229);
     color: #ffffff;
 }
 
 .b-tree__itemContent:hover {
-    background-color: rgb(197,225,165);
-    color: #33691e;
+    background-color: rgb(144,202,249);
+    color: #0d47a1;
 }
 
 .m-tree__itemContent__selected,
@@ -1655,7 +1655,7 @@ html[dir="rtl"] .b-tabs__selectorItem {
 .m-tabs__selectorItem__selected .b-tabs__selectorContent,
 .b-tabs__wrapperItems {
     background-color: #fafafa;
-    color: #33691e;
+    color: #0d47a1;
 }
 
 .m-tabs__selectorItem__selected .b-tabs__selectorContent {
@@ -1668,7 +1668,7 @@ html[dir="rtl"] .b-tabs__selectorItem {
     position: relative;
     font-size: 0.8em;
     padding: 0.5em 1.5em 0.5em 2.0em;
-    color: #33691e;
+    color: #0d47a1;
     cursor: default;
     white-space: pre;
 }
@@ -1690,12 +1690,12 @@ html[dir="rtl"] .b-tabs__selectorContent {
 }
 
 .m-tabs__selectorItem__selected .b-tabs__selectorContent {
-    border-bottom: 2px #7cb342 solid;
+    border-bottom: 2px #1e88e5 solid;
 }
 
 .m-tabs__selectorItem__hovered .b-tabs__selectorContent {
-    background-color: #c5e1a5;
-    color: #33691e;
+    background-color: #90caf9;
+    color: #0d47a1;
     cursor: pointer;
 }
 
@@ -1781,15 +1781,15 @@ html[dir="rtl"] .b-tabs__wrapperItemInner div.b-tree.vscroll {
 }
 
 .b-tabs__wrapperItemInner .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle {
-    background-color: #33691e !important;
+    background-color: #0d47a1 !important;
 }
 
 .b-tabs__wrapperItemInner .os-scrollbar:hover > .os-scrollbar-track > .os-scrollbar-handle {
-    background-color: rgb(124,179,66) !important;
+    background-color: rgb(30,136,229) !important;
 }
 
 .b-tabs__wrapperItemInner .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle.active {
-    background-color: rgb(124,179,66) !important;
+    background-color: rgb(30,136,229) !important;
 }
 
 .m-pageView__state__frame .b-tabs__wrapperItemInner {
@@ -2008,7 +2008,7 @@ div.index_page_title {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 20pt;
     text-decoration: none;
-    color: #49b64e;
+    color: #ffffff;
     text-align: center;
     font-weight: bold;
     white-space: pre;
@@ -2029,7 +2029,7 @@ div.index_page {
     border-right: 0px;
     border-left: 0px;
     border-style: solid;
-    border-color: #49b64e;
+    border-color: #ffffff;
     white-space: pre;
 }
 
@@ -2076,7 +2076,7 @@ div.de_ctrl > table {
 
 
 .b-workZone.m-workZone__withoutSideNav {
-    background: #49b64e 0 0px repeat-x;
+    background: #ffffff 0 0px repeat-x;
 }
 
 .b-workZone.m-workZone__withoutSideNav .m-workZone__side__nav,
@@ -2157,7 +2157,7 @@ html[dir="rtl"] .b-pageLayout.b-pageLayout__xs .m-workZone__side__article {
     position: absolute;
     top: 0;
     left: 0;
-    color: #33691e;
+    color: #0d47a1;
     font-size: 2em;
     line-height: 1em;
     z-index: 20;
@@ -2334,7 +2334,7 @@ html[dir="rtl"] .b-pageLayout.b-pageLayout__sm .b-workZone.m-workZone__withoutSp
     position: absolute;
     top: 0;
     right: 0;
-    color: #33691e;
+    color: #0d47a1;
     font-size: 2em;
     line-height: 1em;
     z-index: 60;

@@ -1181,10 +1181,10 @@ InputSync.prototype ={
 DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_menu' );
 DR_EXPLAIN.data_menu = {
     // menu
-    DREX_NODE_NAMES: ["Página principal","1. Acceso al sistema","2. Órdenes de atención","2.1. Registrar órden de atención"],
-    DREX_NODE_LINKS: ["index.htm","acceso_al_sistema.htm","ordenes_de_atencion.htm","registrar_orden_de_atencion.htm"],
-    DREX_NODE_CHILD_START: [1,3,3,4],
-    DREX_NODE_CHILD_END: [3,3,4,4],
+    DREX_NODE_NAMES: ["Página principal","1. Acceso al sistema","2. Órdenes de atención","3. Médicos afiliados","4. Resultados","5. Reportes","6. Muestras","7. Reactivos","2.1. Registrar órden de atención","3.1. Registro de médicos afiliados","4.1. Emisión de resultados","4.2. Emisión de resultados desde móvil"],
+    DREX_NODE_LINKS: ["index.htm","acceso_al_sistema.htm","ordenes_de_atencion.htm","medicos_afiliados.htm","resultados.htm","reportes.htm","muestras.htm","reactivos.htm","registrar_orden_de_atencion.htm","registro_de_medicos_afiliados.htm","emision_de_resultados.htm","emision_de_resultados_desde_movil.htm"],
+    DREX_NODE_CHILD_START: [1,8,8,9,10,12,12,12,12,12,12,12],
+    DREX_NODE_CHILD_END: [8,8,9,10,12,12,12,12,12,12,12,12],
     DREX_MENU_TYPE: 2,
     DREX_HAS_ROOT_NODE: 0};
 
